@@ -22,7 +22,7 @@
         <!-- ==============================
         ======Header Part Start=======
         ============================== -->
-        <header>
+        <header class="bg-white">
                 <!-- Navbar -->
                 <nav class="container navbar navbar-expand-lg navbar-light fixed-top bg-white">
                         <div class="container-fluid">
@@ -39,11 +39,15 @@
                                                 </li>
                                                 <li class="nav-item">
                                                         <a class="nav-link active" aria-current="page"
-                                                                href="#">Products</a>
+                                                                href="#products">Products</a>
                                                 </li>
                                                 <li class="nav-item">
                                                         <a class="nav-link active" aria-current="page"
-                                                                href="#">Orders</a>
+                                                                href="#feature">Feature</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                        <a class="nav-link active" aria-current="page"
+                                                                href="#about">About</a>
                                                 </li>
                                                 <li class="nav-item">
 
@@ -66,7 +70,7 @@
                 </form>
         </header>
 
-        <main>
+        <main id="products">
                 <!-- Product Part Start -->
                 <section class="container">
                         <div class="container mx-auto row pt-5 gy-5">
@@ -259,9 +263,9 @@
 
                 <!-- Feature Section -->
 
-                <section class="container p-4">
-                        <div class="container row">
-                                <div class="col-lg-6">
+                <section id="feature" class="container p-4">
+                        <div class="container row pt-5">
+                                <div class="col-lg-6 order-sm-2 order-lg-1 order-2">
                                         <div class="pb-2">
                                                 <div
                                                         class="d-flex justify-content-center align-items-center  shadow p-2 rounded-3">
@@ -271,9 +275,8 @@
                                                         </div>
                                                         <div class="p-2">
                                                                 <h2>Home Delivery</h2>
-                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                                                                        elit.
-                                                                        Eaque, odio!</p>
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.
+                                                                </p>
                                                         </div>
                                                 </div>
                                         </div>
@@ -286,9 +289,8 @@
                                                         </div>
                                                         <div class="p-2">
                                                                 <h2>Home Delivery</h2>
-                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                                                                        elit.
-                                                                        Eaque, odio!</p>
+                                                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.
+                                                                </p>
                                                         </div>
                                                 </div>
                                         </div>
@@ -301,22 +303,40 @@
                                                         </div>
                                                         <div class="p-2">
                                                                 <h2>Home Delivery</h2>
-                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing
-                                                                        elit.
-                                                                        Eaque, odio!</p>
+                                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing.
+                                                                </p>
                                                         </div>
                                                 </div>
                                         </div>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 order-sm-1 order-lg-1 order-1">
                                         <img class="img-fluid p-5" src="images/shopping.png" alt="">
                                 </div>
                         </div>
                 </section>
         </main>
 
-        <footer>
-
+        <!-- Footer Start -->
+        <footer id="about" class="mt-5 p-5 bg-dark text-white">
+                <div class="container">
+                        <div class="row d-flex justify-content-between align-items-center">
+                                <div class="col-lg-5 pb-5">
+                                        <h6>Level-4, 34, Maskanda Passport Office Road, Mymensingh.</h6>
+                                        <h6>Official: abc@gmail.com</h6>
+                                        <h6>Helpline : +878545454545 (Available : 09:00am to 7:00pm)</h6>
+                                </div>
+                                <div class="col-lg-3 pb-5">
+                                        <h6>About Us</h6>
+                                        <h6>Refund Policy</h6>
+                                        <h6>Terms & Condition</h6>
+                                        <h6>Privacy Policy</h6>
+                                </div>
+                                <div class="col-lg-4">
+                                        <img class="img-fluid" src="images/card.png" alt="">
+                                </div>
+                        </div>
+                </div>
+                <p class="text-center pb-5 pt-5">Copyright © 2021 chal-dal.com</p>
         </footer>
 
         <!-- Bootstrap JavaScript -->
